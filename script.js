@@ -2,25 +2,25 @@
 const data = {
   users: [
     {
-      username: "user1",
-      password: "1234",
-      name: "Ali",
-      class: "10A",
+      username: "juelfa",
+      password: "jelek123",
+      name: "Juelfa Hasanah Pacar Pikar Ganteng",
+      posisi: "Staff Biro Internal",
       grades: {
-        q1: { Math: 85, English: 90 },
-        q2: { Math: 78, English: 88 },
-        q3: { Math: 82, English: 89 }
+        q1: { Keaktifan: 85, Kontribusi: 90, Kehadiran: 89 },
+        q2: { Keaktifan: 100, Kontribusi: 85, Kehadiran: 95 },
+        q3: { Keaktifan: 89, Kontribusi: 95, Kehadiran: 98 }
       }
     },
     {
-      username: "user2",
-      password: "5678",
-      name: "Budi",
-      class: "10B",
+      username: "rismada",
+      password: "datuljelek",
+      name: "Rismadatul Amalia Sofa",
+      posisi: "Staff Biro Internal",
       grades: {
-        q1: { Math: 78, Science: 88 },
-        q2: { Math: 80, Science: 90 },
-        q3: { Math: 82, Science: 91 }
+        q1: { Keaktifan: 100, Kontribusi: 90, Kehadiran: 89 },
+        q2: { Keaktifan: 100, Kontribusi: 85, Kehadiran: 95 },
+        q3: { Keaktifan: 200, Kontribusi: 95, Kehadiran: 98 }
       }
     }
   ]
@@ -35,7 +35,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
   if (user) {
     showReport(user);
   } else {
-    alert("Username atau password salah!");
+    alert("kamu belum ada akun nya ya wkwkkwk!");
   }
 });
 
