@@ -12,7 +12,18 @@ const data = {
         q3: { Keaktifan: 89, Kontribusi: 95, Kehadiran: 98 }
       }
     },
-    {
+     {
+      username: "itofikrin",
+      password: "pikarganteng",
+      name: "Hasna pacar siapa ya? Pacar PIKAR bukan ALVIN",
+      class: "Staff Biro Internal",
+      grades: {
+        q1: { Keaktifan: 100, Kontribusi: 90, Kehadiran: 89 },
+        q2: { Keaktifan: 100, Kontribusi: 85, Kehadiran: 95 },
+        q3: { Keaktifan: 89, Kontribusi: 95, Kehadiran: 1000 }
+      }
+    },
+     {
       username: "rismada",
       password: "datuljelek",
       name: "Rismadatul Amalia Sofa",
